@@ -10,7 +10,7 @@ from airweave import crud, schemas
 from airweave.api.deps import get_db, get_user
 from airweave.api.router import TrailingSlashRouter
 from airweave.core.chat_service import chat_service
-from airweave.core.config import settings
+from airweave.core.config import setting
 from airweave.core.logging import logger
 
 router = TrailingSlashRouter()
